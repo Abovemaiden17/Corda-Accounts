@@ -2,6 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Corda-Accounts.clients.main" target="1.8" />
+      <module name="Corda-Accounts.clients.test" target="1.8" />
+      <module name="Corda-Accounts.contracts.main" target="1.8" />
+      <module name="Corda-Accounts.contracts.test" target="1.8" />
+      <module name="Corda-Accounts.main" target="1.8" />
+      <module name="Corda-Accounts.test" target="1.8" />
+      <module name="Corda-Accounts.workflows.integrationTest" target="1.8" />
+      <module name="Corda-Accounts.workflows.main" target="1.8" />
+      <module name="Corda-Accounts.workflows.test" target="1.8" />
       <module name="cordapp-template-kotlin.clients.main" target="1.8" />
       <module name="cordapp-template-kotlin.clients.test" target="1.8" />
       <module name="cordapp-template-kotlin.contracts.main" target="1.8" />

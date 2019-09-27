@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63cec1f-e88f-4819-bf2b-c380d45bc90e" name="Default Changelist" comment="" />
+    <list default="true" id="a63cec1f-e88f-4819-bf2b-c380d45bc90e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/clients/Corda-Accounts.clients.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/clients/Corda-Accounts.clients.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/clients/Corda-Accounts.clients.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/contracts/Corda-Accounts.contracts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/contracts/Corda-Accounts.contracts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/contracts/Corda-Accounts.contracts.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.integrationTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_r3_corda_lib_accounts_accounts_contracts_1_0_RC03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_r3_corda_lib_accounts_accounts_contracts_1_0_RC03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_r3_corda_lib_accounts_accounts_workflows_1_0_RC03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_r3_corda_lib_accounts_accounts_workflows_1_0_RC03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_configuration_parsing_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_configuration_parsing_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_logging_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_logging_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_validation_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_validation_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_confidential_identities_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_confidential_identities_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_core_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_core_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_contracts_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_contracts_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_workflows_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_workflows_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_jackson_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_jackson_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_mock_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_mock_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_api_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_api_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_driver_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_driver_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_rpc_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_rpc_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_serialization_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_serialization_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_shell_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_shell_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_common_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_common_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_utils_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_utils_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_tools_cliutils_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_tools_cliutils_4_3_RC01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/cordapp-template-kotlin.clients.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/cordapp-template-kotlin.clients.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clients/cordapp-template-kotlin.clients.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/clients/cordapp-template-kotlin.clients.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clients/cordapp-template-kotlin.clients.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts/cordapp-template-kotlin.contracts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts/cordapp-template-kotlin.contracts.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/contracts/cordapp-template-kotlin.contracts.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/contracts/cordapp-template-kotlin.contracts.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/contracts/cordapp-template-kotlin.contracts.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cordapp-template-kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cordapp-template-kotlin.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cordapp-template-kotlin.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cordapp-template-kotlin.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cordapp-template-kotlin.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.integrationTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.integrationTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/cordapp-template-kotlin.workflows.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +82,21 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ROp5kgcXXCzMXTCXAiLXofLvQK" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -60,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

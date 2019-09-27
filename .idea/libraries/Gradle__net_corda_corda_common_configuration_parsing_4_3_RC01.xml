@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-configuration-parsing/4.3-RC01/a7d0f7690ba67287c49225d933f0bc814aa16f48/corda-common-configuration-parsing-4.3-RC01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-configuration-parsing/4.3-RC01/740accc2a26c30d18778a18ae13c18ebe0ff4933/corda-common-configuration-parsing-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

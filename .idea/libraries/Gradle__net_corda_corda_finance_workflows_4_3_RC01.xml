@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-finance-workflows/4.3-RC01/83c6120ce6824db7713971b406c139477dd5fc72/corda-finance-workflows-4.3-RC01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-finance-workflows/4.3-RC01/3d1a29e5eeb2dec17ca84b3b59dfa487485261f3/corda-finance-workflows-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

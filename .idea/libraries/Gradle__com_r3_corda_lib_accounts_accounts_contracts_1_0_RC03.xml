@@ -2,10 +2,12 @@
   <library name="Gradle: com.r3.corda.lib.accounts:accounts-contracts:1.0-RC03">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.accounts/accounts-contracts/1.0-RC03/bc6ee7953552b71246df376332ab82e3448b4351/accounts-contracts-1.0-RC03.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/r3/corda/lib/accounts/accounts-contracts/1.0-RC03/accounts-contracts-1.0-RC03.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.accounts/accounts-contracts/1.0-RC03/34149b6c2178e76113b1624ee5eb2926a1acab42/accounts-contracts-1.0-RC03-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/r3/corda/lib/accounts/accounts-contracts/1.0-RC03/accounts-contracts-1.0-RC03-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

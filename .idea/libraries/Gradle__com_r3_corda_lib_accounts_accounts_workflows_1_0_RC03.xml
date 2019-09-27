@@ -2,10 +2,12 @@
   <library name="Gradle: com.r3.corda.lib.accounts:accounts-workflows:1.0-RC03">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.accounts/accounts-workflows/1.0-RC03/1cf7422c85cc9df3df516b78d6170d3103735e4a/accounts-workflows-1.0-RC03.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/r3/corda/lib/accounts/accounts-workflows/1.0-RC03/accounts-workflows-1.0-RC03.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.accounts/accounts-workflows/1.0-RC03/529334988bf24cfd805a0868c1800a750cfde546/accounts-workflows-1.0-RC03-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/r3/corda/lib/accounts/accounts-workflows/1.0-RC03/accounts-workflows-1.0-RC03-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

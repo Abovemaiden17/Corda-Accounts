@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-logging/4.3-RC01/2ebb75f63deab579126615a8bb5bf11d9fe778af/corda-common-logging-4.3-RC01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-logging/4.3-RC01/972a05a3ad6a3ac458769e9c481486246bf71c8c/corda-common-logging-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

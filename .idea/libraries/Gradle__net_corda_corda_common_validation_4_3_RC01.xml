@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-validation/4.3-RC01/2e157b55d9359112b3b3a882e7366af88cb86994/corda-common-validation-4.3-RC01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-validation/4.3-RC01/65dfb48851f50068cf30b7cc7c835b3a9f0764c6/corda-common-validation-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
