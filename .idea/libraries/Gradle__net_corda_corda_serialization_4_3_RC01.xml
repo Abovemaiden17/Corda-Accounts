@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda-serialization:4.3-RC01">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-serialization/4.3-RC01/4dd124cb8c2ff9e92f871b428f2bbe17379f6890/corda-serialization-4.3-RC01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-serialization/4.3-RC01/e2f7c6d72ba1f154452d19db549b45eb5e5df7f/corda-serialization-4.3-RC01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

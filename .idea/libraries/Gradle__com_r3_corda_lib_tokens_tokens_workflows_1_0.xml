@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.r3.corda.lib.tokens:tokens-workflows:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.tokens/tokens-workflows/1.0/fa763f22f2bd47ef05c1050081568367855b4e37/tokens-workflows-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.tokens/tokens-workflows/1.0/a6fa5d67f3b630555e29e0f960fc7aac0b830c8d/tokens-workflows-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

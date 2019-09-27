@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.r3.corda.lib.tokens:tokens-money:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.tokens/tokens-money/1.0/ea878ad2bcfee60b1f86649253fa7a0d79f22e3d/tokens-money-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.tokens/tokens-money/1.0/de172d7a63f2de7228cc8bca1a010ea62f627fbd/tokens-money-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
