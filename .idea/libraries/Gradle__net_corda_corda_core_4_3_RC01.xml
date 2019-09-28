@@ -6,7 +6,6 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.3-RC01/f265aff6ad4e12690b6190bcb12ee544fbee4750/corda-core-4.3-RC01-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.3-RC01/a8384d5e0a2346c338bd0a3ab4d5ae17e332aa29/corda-core-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

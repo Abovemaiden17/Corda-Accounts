@@ -6,7 +6,6 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-serialization/4.3-RC01/e2f7c6d72ba1f154452d19db549b45eb5e5df7f/corda-serialization-4.3-RC01-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-serialization/4.3-RC01/f5cc688f70a9f042a84bbf4423b63b49f7c277e1/corda-serialization-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

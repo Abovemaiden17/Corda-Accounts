@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Cordapp-Contract-Vendor: Corda Open Source
+Cordapp-Contract-Version: 1
+Cordapp-Contract-Name: Template Contract
+Target-Platform-Version: 4
+Sealed: true
+Min-Platform-Version: 4
+Cordapp-Contract-Licence: A liberal, open source licence
+

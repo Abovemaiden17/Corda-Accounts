@@ -6,7 +6,6 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-confidential-identities/4.3-RC01/1b7d63e54ac0f65a57a5e4d7d8b26497f67ff703/corda-confidential-identities-4.3-RC01-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-confidential-identities/4.3-RC01/4c877f87403f0d8602c51c240e5d376e86a76c6c/corda-confidential-identities-4.3-RC01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
