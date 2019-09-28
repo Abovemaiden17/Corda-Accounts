@@ -1,12 +1,12 @@
-package com.template.flows
+package accounts.flows
 
 import co.paralleluniverse.fibers.Suspendable
 import com.r3.corda.lib.accounts.workflows.accountService
 import com.r3.corda.lib.accounts.workflows.flows.RequestKeyForAccount
-import com.template.AccountContract
-import com.template.states.AccountState
+import accounts.contract.AccountContract
+import accounts.functions.FlowFunctions
+import accounts.states.AccountState
 import net.corda.core.contracts.Command
-import net.corda.core.contracts.Requirements.using
 import net.corda.core.contracts.requireThat
 import net.corda.core.flows.*
 import net.corda.core.transactions.SignedTransaction
@@ -23,12 +23,14 @@ import java.util.*
  */
 @InitiatingFlow
 @StartableByRPC
-class AccountFlow(val iouValue: Int, val lenderId: UUID, val borrowerId: UUID) : FlowLogic<SignedTransaction>() {
+class AccountFlow(val iouValue: Int, val lenderId: UUID, val borrowerId: UUID) : FlowFunctions()
+{
     /*
      * The progress tracker checkpoints each stage of the flow and outputs the specified messages when each checkpoint is reached.
      * See the 'progressTracker.currentStep' expressions within the call() function.
      */
-    companion object {
+    companion object
+    {
         object BUILDING : ProgressTracker.Step("Building a new transaction.")
         object SIGNING : ProgressTracker.Step("Signing the transaction with our private key.")
         object COLLECTING : ProgressTracker.Step("Collecting the counterparty's signature.") {
@@ -50,11 +52,12 @@ class AccountFlow(val iouValue: Int, val lenderId: UUID, val borrowerId: UUID) :
     override val progressTracker = tracker()
 
     @Suspendable
-    override fun call(): SignedTransaction {
+    override fun call(): SignedTransaction
+    {
         progressTracker.currentStep = BUILDING
         val notary = serviceHub.networkMapCache.notaryIdentities.first()
 
-        //Lookup the account and Public Key from the UUID
+        // Lookup the account and Public Key from the UUID
         val lenderAccountInfo = accountService.accountInfo(lenderId) ?: throw IllegalStateException("Can't find account to move from $lenderId")
         val borrowerAccountInfo = accountService.accountInfo(borrowerId) ?: throw IllegalStateException("Can't find account to move to $borrowerId")
 
@@ -85,10 +88,10 @@ class AccountFlow(val iouValue: Int, val lenderId: UUID, val borrowerId: UUID) :
         val locallySignedTx = serviceHub.signInitialTransaction(txBuilder, keysToSignWith)
 
         //We have to do 2 different flows depending on whether the other account is on our node or a different node
-        if (borrowerAccountInfo.state.data.host == serviceHub.myInfo.legalIdentitiesAndCerts.first().party) {
+        return if (borrowerAccountInfo.state.data.host == serviceHub.myInfo.legalIdentitiesAndCerts.first().party) {
             //Notarise and record the transaction in just our vault.
             progressTracker.currentStep = FINALISING
-            return subFlow(FinalityFlow(locallySignedTx, emptyList()))
+            subFlow(FinalityFlow(locallySignedTx, emptyList()))
         } else {
             //Send the state to the counterparty and get it back with their signature.
             progressTracker.currentStep = COLLECTING
@@ -97,7 +100,7 @@ class AccountFlow(val iouValue: Int, val lenderId: UUID, val borrowerId: UUID) :
             val fullySignedTx = locallySignedTx.withAdditionalSignatures(borrowerSignature)
             //Notarise and record the transaction in both parties' vaults.
             progressTracker.currentStep = FINALISING
-            return subFlow(FinalityFlow(fullySignedTx, listOf(borrowerSession)))
+            subFlow(FinalityFlow(fullySignedTx, listOf(borrowerSession)))
         }
     }
 }
