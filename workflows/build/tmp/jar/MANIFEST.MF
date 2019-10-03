@@ -1,9 +1,2 @@
 Manifest-Version: 1.0
-Cordapp-Workflow-Licence: A liberal, open source licence
-Cordapp-Workflow-Version: 1
-Target-Platform-Version: 4
-Sealed: true
-Cordapp-Workflow-Name: Template Flows
-Min-Platform-Version: 4
-Cordapp-Workflow-Vendor: Corda Open Source
 

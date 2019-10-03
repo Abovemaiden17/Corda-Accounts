@@ -4,11 +4,13 @@ import org.springframework.boot.Banner
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.WebApplicationType.SERVLET
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.context.annotation.ComponentScan
 
 /**
  * Our Spring Boot application.
  */
 @SpringBootApplication
+@ComponentScan("accounts")
 private open class Starter
 
 /**

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.r3.corda.lib.ci:ci-workflows:1.0-RC02">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.ci/ci-workflows/1.0-RC02/5bab0e54ee0ac9e6bd70b05701d3959188a4122c/ci-workflows-1.0-RC02.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r3.corda.lib.ci/ci-workflows/1.0-RC02/8dd6fc04cfcee35a76f5f2db0e2bb80de5aeb916/ci-workflows-1.0-RC02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -14,8 +14,10 @@ import org.springframework.stereotype.Service
 class Service(private val rpc: NodeRPCConnection, private val fhc: FlowHandlerCompletion) : IAccountService
 {
     // Get all account info
+
     override fun getAll(): Any
     {
+
         val accountInfoStates = rpc.proxy.vaultQuery(AccountInfo::class.java).states
         return accountInfoStates.map { mapToAccountInfo(it.state.data) }
     }

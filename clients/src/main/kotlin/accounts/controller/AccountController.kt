@@ -3,17 +3,16 @@ package accounts.controller
 import accounts.dto.AccountInfoCreateFlowDTO
 import accounts.dto.AccountStateCreateFlowDTO
 import accounts.service.Service
-import org.springframework.http.HttpHeaders
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.net.URI
 
-private const val CONTROLLER_NAME = "accounts"
+private const val CONTROLLER_NAME = "api/v1/accounts"
 
 @RestController
 @CrossOrigin(origins = ["*"])
 @RequestMapping(CONTROLLER_NAME) // The paths for HTTP requests are relative to this base path.
-class CollaboratorController(private val accountService: Service) : BaseController()
+class AccountController(private val accountService: Service) : BaseController()
 {
     /**
      * Get all accounts
@@ -61,7 +60,7 @@ class CollaboratorController(private val accountService: Service) : BaseControll
     /**
      * Get all account states
      */
-    @GetMapping(value = ["/state"], produces = ["application/json"])
+    @GetMapping(value = ["/state/all"], produces = ["application/json"])
     private fun getAllAccountStates(): ResponseEntity<Any>
     {
         return try {
