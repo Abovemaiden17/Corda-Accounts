@@ -2,65 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63cec1f-e88f-4819-bf2b-c380d45bc90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/nodes/corda.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/accounts/contract/AccountContract$Commands$Create.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/accounts/contract/AccountContract$Commands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/accounts/contract/AccountContract$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/accounts/contract/AccountContract.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/accounts/states/AccountState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/logs/node-DESKTOP-0IE19US.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/src/main/kotlin/accounts/contract/AccountContract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow$Companion$BUILDING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow$Companion$COLLECTING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow$Companion$FINALISING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow$Companion$SIGNING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountFlow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountResponder$call$signTransactionFlow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/AccountResponder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/CreateAccountFlow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/CreateAccountFlowResponder$call$signTransactionFlow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/CreateAccountFlowResponder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/BUILDING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/COLLECTING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/FINALIZING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/FlowFunctions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/INITIALIZING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/SIGNING.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/logs/node-DESKTOP-0IE19US.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/flows/CreateAccountFlow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/functions/FlowFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/functions/ProgressTrackerSteps.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/controller/AccountController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/controller/BaseController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/dto/AccountDTO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/service/Service.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/service/interface/IAccountService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/service/interface/IService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/webserver/utilities/FlowHandlerCompletion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_configuration_parsing_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_configuration_parsing_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_logging_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_logging_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_validation_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_common_validation_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_confidential_identities_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_confidential_identities_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_core_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_core_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_contracts_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_contracts_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_workflows_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_finance_workflows_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_jackson_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_jackson_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_mock_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_mock_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_api_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_api_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_driver_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_node_driver_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_rpc_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_rpc_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_serialization_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_serialization_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_shell_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_shell_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_common_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_common_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_utils_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_test_utils_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_tools_cliutils_4_3_RC01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_corda_corda_tools_cliutils_4_3_RC01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Corda-Accounts.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/clients/Corda-Accounts.clients.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/clients/Corda-Accounts.clients.main.iml" afterDir="false" />
@@ -70,22 +26,104 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.integrationTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.integrationTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/workflows/Corda-Accounts.workflows.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Template_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Template_Client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Template_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Template_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Corda-Accounts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Corda-Accounts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/reference.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/.cache/apps/net.corda.node.Corda_4.3-RC01/reference.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/checkpoints_agent-20190930-084200.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/diagnostic-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/checkpoints_agent-20190930-084157.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/diagnostic-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/checkpoints_agent-20190930-084200.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/diagnostic-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-MCVEAN-PC0044.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/corda.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/template/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/template/webserver/Controller.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/template/webserver/NodeRPCConnection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/webserver/NodeRPCConnection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/template/webserver/Server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/accounts/webserver/Server.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/AccountContract$Commands$Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/AccountContract$Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/AccountContract$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/AccountContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/ExampleEvolvableTokenTypeContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/states/AccountState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/states/ExampleEvolvableTokenType$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/states/ExampleEvolvableTokenType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/types/ExampleFixedTokenType$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/kotlin/main/com/template/types/ExampleFixedTokenType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/build/kotlin/contracts01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/kotlin/contracts01jar-classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/kotlin/com/template/AccountContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/kotlin/com/template/ExampleEvolvableTokenTypeContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/kotlin/com/template/states/AccountState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/kotlin/accounts/states/AccountState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/kotlin/com/template/states/ExampleEvolvableTokenType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/kotlin/com/template/types/ExampleFixedTokenType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/CreateAccountFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/flows/CreateAccountFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/FlowFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/accounts/functions/FlowFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow$Companion$BUILDING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow$Companion$COLLECTING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow$Companion$FINALISING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow$Companion$SIGNING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountResponder$call$signTransactionFlow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/AccountResponder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/CreateExampleEvolvableToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/ExampleFlowWithEvolvableToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/kotlin/main/com/template/flows/ExampleFlowWithFixedToken.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows/build/kotlin/workflows01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/kotlin/workflows01jar-classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/kotlin/com/template/flows/AccountFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/flows/AccountFlow.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/kotlin/com/template/flows/ExampleFlowWithEvolvableToken.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/kotlin/com/template/flows/ExampleFlowWithFixedToken.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/flows/CreateAccountFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/flows/CreateAccountFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/functions/FlowFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/kotlin/accounts/functions/FlowFunctions.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +151,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -125,6 +164,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -138,6 +178,8 @@
       <recent name="accounts.states" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\antonio.aradaza\Documents\Corda Projects\Corda-Accounts\clients\src\main\kotlin\accounts\webserver" />
+      <recent name="C:\Users\antonio.aradaza\Documents\Corda Projects\Corda-Accounts\clients\src\main\kotlin\accounts" />
       <recent name="C:\Users\Chi\Documents\Corda\Corda-Accounts\workflows\src\main\kotlin\accounts\flows" />
     </key>
   </component>
@@ -153,7 +195,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run Contract Tests" />
+  <component name="RunManager" selected="Gradle.Corda-Accounts [runTestPartyBServer]">
+    <configuration name="Corda-Accounts [runTestPartyAServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runTestPartyAServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Corda-Accounts [runTestPartyBServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runTestPartyBServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Corda-Accounts [runTestPartyBServer]" />
+        <item itemvalue="Gradle.Corda-Accounts [runTestPartyAServer]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>

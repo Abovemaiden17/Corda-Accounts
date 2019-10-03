@@ -4,6 +4,7 @@ import com.r3.corda.lib.accounts.contracts.states.AccountInfo
 import com.r3.corda.lib.accounts.workflows.accountService
 import com.r3.corda.lib.accounts.workflows.flows.RequestKeyForAccount
 import net.corda.core.contracts.StateAndRef
+import net.corda.core.contracts.UniqueIdentifier
 import net.corda.core.flows.FlowLogic
 import net.corda.core.transactions.SignedTransaction
 import net.corda.core.transactions.TransactionBuilder
@@ -22,14 +23,21 @@ abstract class FlowFunctions : FlowLogic<SignedTransaction>()
         return serviceHub.signInitialTransaction(transaction, keysToSign)
     }
 
-    fun getAccountInfo(id: UUID): StateAndRef<AccountInfo>
+    private fun stringToUUID(id: String): UUID
     {
-        return accountService.accountInfo(id) ?: throw IllegalStateException("Can't find account to move from $id")
+        return UUID.fromString(id)
     }
 
-    fun getKey(id: UUID): PublicKey
+    fun getAccountInfo(id: String): StateAndRef<AccountInfo>
     {
-        val accountInfo = accountService.accountInfo(id) ?: throw IllegalStateException("Can't find account to move from $id")
+        return accountService.accountInfo(stringToUUID(id)) ?: throw IllegalStateException("Can't find account to move from $id")
+    }
+
+    fun getKey(id: String): PublicKey
+    {
+        val accountInfo = accountService.accountInfo(stringToUUID(id)) ?: throw IllegalStateException("Can't find account to move from $id")
         return subFlow(RequestKeyForAccount(accountInfo.state.data)).owningKey
     }
+
+
 }

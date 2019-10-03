@@ -15,8 +15,8 @@ import java.util.*
 @InitiatingFlow
 @StartableByRPC
 class CreateAccountFlow (private val iou: Int,
-                         private val lenderId: UUID,
-                         private val borrowerId: UUID): FlowFunctions()
+                         private val lenderId: String,
+                         private val borrowerId: String): FlowFunctions()
 {
     @Suspendable
     override fun call(): SignedTransaction
